@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         if("".equals(sharedPreferences.getString("test", ""))) {
             SharedPreferences.Editor editor = sharedPreferences.edit();
 
-            editor.putString("test","Hello");
+            editor.putString("test","Hello World");
 
             editor.apply();
         } else {
